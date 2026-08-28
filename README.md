@@ -4,14 +4,6 @@
 
 Address Completion provides a simple Laravel API for address autocomplete. It uses the French BAN API for French territories and Geoapify as a fallback for other countries.
 
-<p align="center">
-    <a href="https://packagist.org/packages/bestmomo/address-completion"><img src="https://img.shields.io/packagist/v/bestmomo/address-completion.svg?style=flat-square" alt="Packagist"></a>
-    <a href="https://packagist.org/packages/bestmomo/address-completion"><img src="https://img.shields.io/packagist/php-v/bestmomo/address-completion.svg?style=flat-square" alt="PHP from Packagist"></a>
-    <a href="https://packagist.org/packages/bestmomo/address-completion"><img src="https://badge.laravel.cloud/badge/bestmomo/address-completion?style=flat" alt="Laravel versions"></a>
-    <a href="https://github.com/bestmomo/address-completion/actions"><img alt="GitHub Workflow Status (main)" src="https://img.shields.io/github/actions/workflow/status/bestmomo/address-completion/tests.yml?branch=main&label=Tests&style=flat-square"></a>
-    <a href="https://packagist.org/packages/bestmomo/address-completion"><img src="https://img.shields.io/packagist/dt/bestmomo/address-completion.svg?style=flat-square" alt="Total Downloads"></a>
-</p>
-
 ## Installation
 
 This package requires PHP 8.3 or later and Laravel 12 or 13.

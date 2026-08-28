@@ -1,7 +1,7 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
     "name": "bestmomo/laravel-address-completion",
-    "description": "",
+    "description": "Simple Laravel API for address autocomplete",
     "keywords": [
         "laravel",
         "bestmomo",
@@ -12,8 +12,7 @@
     "authors": [
         {
             "name": "bestmomo",
-            "email": "colorstonic@free.fr",
-            "role": "Developer"
+            "email": "colorstonic@free.fr"
         }
     ],
     "require": {
@@ -35,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AddressCompletion\\": "src/"
+            "Bestmomo\\AddressCompletion\\": "src/"
         }
     },
     "autoload-dev": {

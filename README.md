@@ -83,6 +83,16 @@ The published configuration file lets you change the default country, result lim
 
 The BAN provider is selected automatically for configured French territories. Geoapify handles all other countries and requires `GEOAPIFY_KEY`.
 
+### Cache
+
+Address search results are cached automatically for 5 minutes to reduce calls to the BAN and Geoapify APIs. The cache uses Laravel's default cache store, so configure it in your application's cache settings when needed.
+
+Cache entries are separated by provider, country, result limit and search query. To clear cached address results, clear the application's cache:
+
+```bash
+php artisan cache:clear
+```
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.

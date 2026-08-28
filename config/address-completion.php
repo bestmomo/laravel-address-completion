@@ -38,10 +38,4 @@ return [
         ],
 
     ],
-
-    'cache' => [
-        'enabled' => false,
-        'ttl' => 3600,
-    ],
-
 ];

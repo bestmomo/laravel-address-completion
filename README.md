@@ -11,13 +11,13 @@ This package requires PHP 8.3 or later and Laravel 12 or 13.
 You can install the package via Composer:
 
 ```bash
-composer require bestmomo/address-completion
+composer require bestmomo/laravel-address-completion
 ```
 
 You may publish all of the package's resources at once:
 
 ```bash
-php artisan vendor:publish --tag="address-completion"
+php artisan vendor:publish --tag="laravel-address-completion"
 ```
 
 Or, you may publish each resource individually:

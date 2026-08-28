@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bestmomo\\AddressCompletion\\": "src/"
+            "AddressCompletion\\": "src/"
         }
     },
     "autoload-dev": {
